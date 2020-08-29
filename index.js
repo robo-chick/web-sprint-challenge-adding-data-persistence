@@ -1,5 +1,7 @@
 const express = require("express")
 
+const welcomeRouter = require("./routers/welcome");
+
 
 const server = express()
 const port = process.env.PORT || 4000
