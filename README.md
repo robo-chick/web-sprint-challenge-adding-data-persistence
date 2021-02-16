@@ -48,11 +48,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain the difference between `Relational Databases` and `SQL`.
 
+SQL is a tool to manipulate data, a relational databse is a place to persistently store data in a tabular format where each entry has a primary key and all fields directly relate to each other. 
+
 2. Why do tables need a `primary key`?
+
+It is a unique identifier for each record.
 
 3. What is the name given to a table column that references the primary key on another table.
 
+Foreign key
+
 4. What do we need in order to have a _many to many_ relationship between two tables.
+
+An intermediary table that holds foreign keys that reference the primary key on the related tables. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
